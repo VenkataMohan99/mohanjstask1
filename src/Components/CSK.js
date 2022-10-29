@@ -1,7 +1,6 @@
-// import logo from './logo.svg';
-import "./App.css";
+import React from 'react'
 
-function App() {
+function CSK() {
   return (
     <div >
       
@@ -9,6 +8,7 @@ function App() {
           src="https://i.pinimg.com/originals/85/52/f8/8552f811e95b998d9505c43a9828c6d6.jpg"
           alt="CSK Team Logo"
           id="CSKLogo"
+          title='csk logo'
         />
         <h1 id="CSKTitle">Chennai Super Kings (CSK) Team</h1>
         <h1 className="CSKPlayersNames">1.MS DHONI</h1>
@@ -17,6 +17,7 @@ function App() {
             src="https://www.deccanherald.com/sites/dh/files/gallery_images/2022/03/25/MS%20Dhoni%20Photos.jpg"
             alt="Ms Dhoni pic"
             className="playersImages"
+            title='Ms Dhoni pic'
           />
           <p className="playercontent">
             Mahendra Singh Dhoni ( born 7 July 1981) is an Indian former
@@ -51,6 +52,7 @@ function App() {
             src="https://c.ndtvimg.com/2019-05/3h42rn3s_ravindra-jadeja-csk-bcciipl_625x300_13_May_19.jpg"
             alt="Ravindra jadeja pic"
             className="playersImages"
+            title='Ravindra Jadeja Pic'
           />
           <p className="playercontent">
             Ravindrasinh Anirudhsinh Jadeja (born 6 December 1988), commonly
@@ -85,6 +87,7 @@ function App() {
             src="https://www.wicketnrun.com/wp-content/uploads/2021/03/Ambati-Rayudu-IPL-Controversies-and-Career.jpg"
             alt="Ambati Rayudu pic"
             className="playersImages"
+            title='Ambati Rayudu Pic'
           />
           <p className="playercontent">
             Ambati Thirupathi Rayudu (born 23 September 1985) is an Indian
@@ -116,6 +119,7 @@ function App() {
             src="https://c.ndtvimg.com/2022-03/bgjeul7_dwayne-bravo_625x300_31_March_22.jpg"
             alt="Bravo pic"
             className="playersImages"
+            title='Bravo Pic'
           />
           <p className="playercontent">
             Dwayne John Bravo (born 7 October 1983) is a Trinidadian cricketer
@@ -144,11 +148,9 @@ function App() {
             Delhi Capitals.
           </p>
           
-        </div>
-        <a href="app.js">Home page</a>
-      
+        </div>      
     </div>
-  );
+  )
 }
 
-export default App;
+export default CSK
